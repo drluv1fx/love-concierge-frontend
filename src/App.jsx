@@ -1,12 +1,12 @@
-import React from 'react'
+import MessageForm from "./components/MessageForm";
 
 function App() {
   return (
-    <div style={{ textAlign: 'center', marginTop: '50px' }}>
-      <h1>Welcome to Love Concierge ❤️</h1>
-      <p>Let’s help you navigate the world of dating!</p>
+    <div className="min-h-screen bg-gray-100 p-4">
+      <h1 className="text-3xl font-bold text-center mt-4">Love Concierge</h1>
+      <MessageForm />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
